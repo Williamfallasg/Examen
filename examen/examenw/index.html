@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+</head>
+  <body>
+    <div class="contenedor-header">
+      <header>
+          <div class="logo">
+              <a href="#" > William Fallas</a>
+          </div>
+          <nav id="nav">
+              <ul>
+                  <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                  <li> <a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                  <li> <a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                  <li> <a href="#curriculo" onclick="seleccionar()">CURRICULO</a></li>
+                  <li> <a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                  <li> <a href="#githut" onclick="seleccionar()">GITHUT</a></li>
+                  <li> <a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+              </ul>
+          </nav>
+         <div class="nav-responsive" onclick="mostrarOcultarMenu">
+          <i class="fa-solid fa-bars"></i>
+         </div>
+      </header>
+  </div>
+  <!--Seccin de inicio -->
+  <section id="inicio" class="inicio">
+   <div class="contenido-banner">
+     <div class="contenedor-img">
+      <img src="src\imagen\William.jpg" alt="">
+     </div>
+     <h1>William Fallas</h1>
+     <h2>Estudiante de Informática Empresarial en la Universidad de Costa Rica-
+       Conocimientos en HTML, JAVASCRIPT Y CSS</h2>
+       <div class="redes"> 
+        <a href="https://www.linkedin.com/in/william-gonz%C3%A1lez-9a8b64176/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://acortar.link/XS3dhB"><i class="fa-brands fa-facebook" ></i></a>
+        <a href="https://www.instagram.com/williamfallasg/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://join.skype.com/invite/oLgcDJaQzgqs"><i class="fa-brands fa-skype"></i></a>
+       </div>
+   </div>
+
+  </section>
+    <script type="module" src="/src/main.tsx"></script>
+   <!--Sección de inicio -->
+  <section class="sobremi" id="sobremi" >
+    <div class="contenido-seccion">
+      <h2>Sobre mi</h2>
+      <a><span>Hola, soy William Fallas</span> un apasionado por la tecnólogia, la programación y los lenguajes. </a>
+    <div class="fila">
+      <div class="col">
+        <h3> Datos Personales</h3>
+        <ul>
+          <li>
+            <strong>Edad </strong>
+            :28 años
+          </li>
+          <li>
+            <strong>Telefóno </strong>
+            :87507272
+          </li>
+          <li>
+            <strong>Edad </strong>
+            :28 años
+          </li>
+          <li>
+            <strong>Email</strong>
+            :williamfallasg50@gmail.com
+          </li>
+          <li>
+            <strong>Dirreción </strong>
+            :Costa Rica, Puntarenas, Golfito, Golfito, Pueblo Civil.
+          </li>
+          <li>
+            <strong>Ocupación </strong>
+           <span> :Estudiante </span>
+          </li>
+        </ul>
+      </div>
+      <!--Intereses-->
+      <div class="col">
+        <h3> Intereses</h3>
+        <div class="contenedor-intereses"> </div>
+            <div class="interes">
+              <i class="fa-solid fa-gamepad"></i>
+              <span>Juegos</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-headphones"></i>
+              <span>Escuchar musica</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-camera-retro"></i>
+              <span>Fotografia</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-motorcycle"></i>
+              <span>Motocicletas</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-plane"></i>
+              <span>Viajes</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>Programación</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-car"></i>
+              <span>carros</span>
+            </div>
+            <div class="interes">
+              <i class="fa-duotone fa-book"></i>
+              <span>Leer</span>
+            </div>
+          </div>
+         </div>
+           <button>
+             Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+          </button>
+     </div>
+  </section>
+  <!--Seccia habilidades técnicas -->
+  <section class="skills" id="skills"> 
+    <div class="contenido-seccion">
+      <h2>Skills</h2>
+      <div class="fila">
+        <div class="col"> 
+          <h3> Habilidades técnicas</h3>
+          
+          <div class="skill">
+            <span>JAVASCRIPT</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>CSS</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>HTML</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>JAVA</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>WORDPRESS</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <!--habilidades profesionales--> 
+       <div class="col"> 
+        <h3> Habilidades Profesionales</h3>
+        <div class="skill">
+          <span>Comunicación</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>80%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>Trabajo</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>80%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>Liderazgo</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>85%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>Creatividad</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>60%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>  Dedicacion</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>90%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+ <!-- session CURRICULO-->
+ <section id="curriculo" class="curriculo">
+  <div class="contenido-seccion"> 
+    <h2>Curriculo</h2>
+    <div class="fila">
+      <div class="col derecha"></div>
+          <h3>Formación academica</h3>
+            <div class="item der">
+              <h4>Universidad de Costa Rica</h4>
+            <span class="casa">Informática Empresarial</span>
+             <span class="fecha">2020-2024</span>
+
+             <h4>Cruz Roja</h4>
+            <span class="casa">Diplomado: "Lo esencial del liderazgo para Dirigentes, 
+              voluntarios, jóvenes y empleados de la Cruz Roja y 
+              la Media Luna Roja"</span>
+             <span class="fecha">2020</span>
+
+             <h4>Universidad de Costa Rica</h4>
+            <span class="casa">Bachillerato Turismo Ecológico</span>
+             <span class="fecha">2015-2019</span>
+
+             <h4>Universidad Palmira</h4>
+            <span class="casa">III Encuentro de Internacionalización en México</span>
+             <span class="fecha">2015-2019</span>
+
+
+               <div class=conectori>
+               <div class="circuloi"></div>
+             </div>
+      </div>
+
+    <div class="col derecha"></div>
+    <h3>Experencia</h3>
+      <div class="item  derecha">
+           <h4>Elaboración de proyectos</h4>
+           <span class="casa">Universidad de Costa Rica</span>
+           <span class="fecha">2020-2024</span>
+        <div class=conectord>
+          <div class="circulod"> </div>
+      </div>
+    </div>
+    </div>
+  </div>
+ </section>
+
+ <!-- session portafolio-->
+  <section id="portafolio" class="portafolio">
+     <div class="contenido-seccion">
+       <h2>Portafolio</h2>
+         <div class="foto">
+            <div class="proyecto">
+               <img  src="src\imagen\porfolio2.png" alt="">
+                  <div class="overlay">
+                    <h3> Elaboración de proyectos</h3>
+                     <p> trabajos</p>
+                  </div>
+           </div>
+        </div>
+    </div>    
+ </section>
+
+ <!-- session Githut-->
+   <section id="githut" class="githut">
+     <div class="contenido-seccion">
+        <h2>GitHut</h2>
+          <div class="Colaboraciones">
+             <div class="proyectos">
+                 <img  src="src\imagen\porfolio1.png" alt="">
+               <div class="overlay">
+                 <h3> Elaboración de proyectos</h3>
+                  <p> trabajos</p>
+               </div>
+           </div>
+       </div>
+     </div>    
+   </section>
+
+
+
+  <!-- session contacto-->
+  <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+      <h2> Contacto</h2>
+      <div class="fila">
+        <div class="col">
+          <input type="text" placeholder="Tú nombre">
+          <input type="text" placeholder="Número de telefóno">
+          <input type="text" placeholder="Dirreción de correo">
+          <input type="text" placeholder="Tema">
+          <textarea name="" id="" cols="30" rows="10"
+          placeholder="mensaje"></textarea>
+          <button> Enviar mensaje <i class="fa-regular fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+        <!--Mapa-->
+        <div class="col">
+          <img src="src\imagen\map.jpg" alt="">
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                Costa Rica, 506, San Jose
+              </li>
+              <li>
+                <i class="fa-solid fa-mobile"></i>
+                Contacto: 2727 2626
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                Email:willliam@gmil.com
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+  <div class="redes"> 
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-skype"></i></a>
+   </div>
+  </footer>
+  <script src="script.js">
+
+  </script>
+  </body>
+</html>
